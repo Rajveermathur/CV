@@ -130,14 +130,9 @@ body{
  .resume .resume_right ul li .date{
      font-size: 16px;
      font-weight: 500;
-     margin-bottom: 15px;
+     
  }
- .resume .resume_right ul li .info{
-     margin-bottom: 20px;
- }
- .resume .resume_right ul li:last-child .info{
-     margin-bottom: 0;
- }
+ 
  
  .resume .resume_right .resume_work ul li:before,
  .resume .resume_right .resume_education ul li:before{
@@ -177,6 +172,36 @@ body{
  .resume .resume_right .resume_hobby ul li:last-child:before{
      display:   none;  
  }
-     
-     
-     
+
+ .resume .resume_left .link{
+     text-decoration: none; 
+     color:white;
+ } 
+ 
+a:focus {
+  border-bottom: 1px solid;
+  background: #1966E5;
+}
+
+a:hover {
+  border-bottom: 1px solid;     
+  background: #0B5FA0;
+  color: white;
+}
+
+
+.resume .resume_right .link{
+     text-decoration: none; 
+     color: #555555;
+ } 
+ .resume .resume_right a:hover {
+  border-bottom: 1px solid;     
+  background: #0B5FA0;
+  color: white;
+  text-decoration: underline;
+ }
+ .resume .resume_right a:focus {
+  border-bottom: 1px solid;     
+  background: #0B5FA0;
+  color: white;
+ }
